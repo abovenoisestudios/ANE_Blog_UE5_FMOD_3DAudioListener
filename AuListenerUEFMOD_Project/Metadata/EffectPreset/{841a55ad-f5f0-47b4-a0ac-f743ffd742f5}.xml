@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{841a55ad-f5f0-47b4-a0ac-f743ffd742f5}">
+		<property name="name">
+			<value>Spatializer_TP</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1e8413f2-63bd-4c7b-8019-3ea8ca8b7b76}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{00abaa91-fdb5-444d-835c-08739bda3583}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{00abaa91-fdb5-444d-835c-08739bda3583}">
+		<property name="soundSize">
+			<value>2</value>
+		</property>
+	</object>
+</objects>

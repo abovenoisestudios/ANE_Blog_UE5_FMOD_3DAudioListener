@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{43452355-84ce-4079-933f-fd66f706f7e4}">
+		<property name="assetPath">
+			<value>Campfire_Flames_Crackle.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>67.292124999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bbd455ed-6475-4589-8087-6cf9a9bd59b9}</destination>
+		</relationship>
+	</object>
+</objects>

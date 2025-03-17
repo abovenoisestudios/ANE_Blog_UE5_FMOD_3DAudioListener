@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{f7bc03d1-a04e-4d30-9e71-5407d629d6d2}">
+		<property name="name">
+			<value>Spatializer_2DTD</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1e8413f2-63bd-4c7b-8019-3ea8ca8b7b76}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{ea87f3cb-4b15-4360-821e-ea13cf0311bb}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{ea87f3cb-4b15-4360-821e-ea13cf0311bb}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<relationship name="automators">
+			<destination>{f7e2b402-2d10-4554-87e9-f75951c71995}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{f7e2b402-2d10-4554-87e9-f75951c71995}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>minimumExtent</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{39d14ad2-a2ed-47a4-890c-2b92e50e962d}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{39d14ad2-a2ed-47a4-890c-2b92e50e962d}">
+		<relationship name="parameter">
+			<destination>{95436b57-7d10-4a1f-9ad3-c2ff8615e22b}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{a1dd5bda-96ef-4b48-84b4-646639bffdc7}</destination>
+			<destination>{7598d7f2-0ba4-44da-baa2-e1edb38dabe7}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{a1dd5bda-96ef-4b48-84b4-646639bffdc7}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>180</value>
+		</property>
+		<property name="curveShape">
+			<value>-1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{7598d7f2-0ba4-44da-baa2-e1edb38dabe7}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

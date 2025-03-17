@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{b65e3760-8464-4a83-a8c2-e9cb8eee78e4}">
+		<property name="assetPath">
+			<value>WaterSplash_02.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5436666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bbd455ed-6475-4589-8087-6cf9a9bd59b9}</destination>
+		</relationship>
+	</object>
+</objects>

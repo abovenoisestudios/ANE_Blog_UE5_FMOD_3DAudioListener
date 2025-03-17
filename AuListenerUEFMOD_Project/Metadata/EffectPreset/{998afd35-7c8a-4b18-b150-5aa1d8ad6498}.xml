@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{998afd35-7c8a-4b18-b150-5aa1d8ad6498}">
+		<property name="name">
+			<value>Spatializer_FP</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1e8413f2-63bd-4c7b-8019-3ea8ca8b7b76}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{02abe947-b7fc-4cf4-bf76-cc1da365e259}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{02abe947-b7fc-4cf4-bf76-cc1da365e259}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>4</value>
+		</property>
+		<relationship name="automators">
+			<destination>{b7646bce-236b-4b43-b8cc-947e274bab78}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{b7646bce-236b-4b43-b8cc-947e274bab78}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>minimumExtent</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{f208b82c-4e17-4172-b022-fa15b15174b5}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{f208b82c-4e17-4172-b022-fa15b15174b5}">
+		<relationship name="parameter">
+			<destination>{95436b57-7d10-4a1f-9ad3-c2ff8615e22b}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{05474ff6-b052-4fa1-89ce-af9835d8ae61}</destination>
+			<destination>{14f3ad4c-7bdd-487d-9e55-1be63b7d0337}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{05474ff6-b052-4fa1-89ce-af9835d8ae61}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>225</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.299516708</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{14f3ad4c-7bdd-487d-9e55-1be63b7d0337}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
